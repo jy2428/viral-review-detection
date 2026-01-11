@@ -21,6 +21,19 @@ NLP pipeline for detecting viral marketing reviews
 
 
 
+## Demo System (Web Service)
+
+카카오맵 매장 URL을 입력하면  
+리뷰 데이터를 수집·분석하여 바이럴 리뷰 확률을 시각적으로 제공
+
+<p align="center">
+  <img src="docs/images/web_demo2.png" alt="Web Demo Screenshot" width="800">
+</p>
+
+
+- 입력: 카카오맵 매장 URL  
+- 출력: 바이럴 리뷰 확률, 감성 분석, 시간성 분석 결과
+
 
 
 ## Demo Video
@@ -35,21 +48,5 @@ NLP pipeline for detecting viral marketing reviews
 
 
 
-
-
-
-
-## Demo System (Web Service)
-
-카카오맵 매장 URL을 입력하면  
-리뷰 데이터를 수집·분석하여 바이럴 리뷰 확률을 시각적으로 제공
-
-<p align="center">
-  <img src="docs/images/web_demo2.png" alt="Web Demo Screenshot" width="800">
-</p>
-
-
-- 입력: 카카오맵 매장 URL  
-- 출력: 바이럴 리뷰 확률, 감성 분석, 시간성 분석 결과
 
 
