@@ -27,7 +27,7 @@ NLP pipeline for detecting viral marketing reviews
 리뷰 데이터를 수집·분석하여 바이럴 리뷰 확률을 시각적으로 제공
 
 <p align="center">
-  <img src="docs/images/web_demo2.png" alt="Web Demo Screenshot" width="800">
+  <img src="https://github.com/user-attachments/assets/5562d6d9-2e5a-4043-87df-03d7e63c221f" width="700">
 </p>
 
 
@@ -40,7 +40,7 @@ NLP pipeline for detecting viral marketing reviews
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=m38R3jwLJTI">
-    <img src="https://img.youtube.com/vi/m38R3jwLJTI/0.jpg" width="500">
+    <img src="https://img.youtube.com/vi/m38R3jwLJTI/0.jpg" width="400">
   </a>
 </p>
 
