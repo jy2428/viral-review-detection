@@ -45,8 +45,9 @@ NLP pipeline for detecting viral marketing reviews
 리뷰 데이터를 수집·분석하여 바이럴 리뷰 확률을 시각적으로 제공
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jy2428/viral-review-detection/main/docs/images/web_demo.png" width="800">
+  <img src="docs/images/web_demo2.png" alt="Web Demo Screenshot" width="800">
 </p>
+
 
 - 입력: 카카오맵 매장 URL  
 - 출력: 바이럴 리뷰 확률, 감성 분석, 시간성 분석 결과
