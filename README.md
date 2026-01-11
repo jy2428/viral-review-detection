@@ -26,7 +26,7 @@ NLP pipeline for detecting viral marketing reviews
 
 
 <p align="center">
-  <img src="docs/images/web_demo.png" width="800">
+  <img src="docs/images/web_demo.png" alt="Web Demo Screenshot" width="800">
 </p>
 
 
