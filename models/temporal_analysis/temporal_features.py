@@ -35,7 +35,6 @@ def process_time(
     if len(review_dates) < 2:
         return 0.0
 
-    # 문자열 날짜 → datetime 변환
     timestamps = []
     for d in review_dates:
         if isinstance(d, str):
@@ -43,10 +42,8 @@ def process_time(
         else:
             timestamps.append(d)
 
-    # 시간순 정렬
     timestamps.sort()
 
-    # 리뷰 간 시간 간격 (일 단위)
     intervals = [
         (timestamps[i] - timestamps[i - 1]).days
         for i in range(1, len(timestamps))
@@ -54,11 +51,7 @@ def process_time(
 
     intervals = np.array(intervals)
 
-    # 짧은 간격 비율 계산
     short_interval_ratio = np.mean(intervals <= interval_threshold)
-
-    # burst 점수 계산
     burst_score = short_interval_ratio * spike_weight
 
-    # 0~1 범위로 클리핑
     return float(min(burst_score, 1.0))
